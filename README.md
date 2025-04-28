@@ -8,6 +8,6 @@ Se pueden seleccionar los personajes que queremos que sean Favoritos, dando tap 
 
 Además contiene un botón en el cuál podemos ver sólo nuestos personajes favoritos, cuando se da tap en este botón se nos abre otra pantalla en la cual muestra sólo los personajes favoritos, a continuación se muestra un ejemplo de esta pantalla:
 
-<img width="502" alt="Image" src="https://github.com/user-attachments/assets/eab1764d-2ffa-49be-ba61-2822ef6d73aa" />
+<img width="502" alt="Image" src="https://github.com/user-attachments/assets/79df21f1-1318-4cfc-a0c8-57e4181948fd" />
 
 Se utilizó Core Data para la persistencia de datos en el dispositivo, Kingfisher para la descarga y almacenamiento en caché de las imágenes, y está desarrollada con SwiftUI y arquitectura MVVM.
