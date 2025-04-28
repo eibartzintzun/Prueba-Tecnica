@@ -1,7 +1,5 @@
 # Prueba-Tecnica
 
-<<<<<<< HEAD
-=======
 La aplicación consume la API de Disney (https://disneyapi.dev/) y muestra los resultados en la pantalla principal en forma de lista, a continuación se muestra un ejemplo de la pantalla principal:
 
 <img width="502" alt="Image" src="https://github.com/user-attachments/assets/c034f5e2-3dac-4675-abec-790ae46640ef" />
@@ -13,4 +11,3 @@ Además contiene un botón en el cuál podemos ver sólo nuestos personajes favo
 <img width="502" alt="Image" src="https://github.com/user-attachments/assets/79df21f1-1318-4cfc-a0c8-57e4181948fd" />
 
 Se utilizó Core Data para la persistencia de datos en el dispositivo, Kingfisher para la descarga y almacenamiento en caché de las imágenes, y está desarrollada con SwiftUI y arquitectura MVVM.
->>>>>>> 9f6501648a582a84d6e382351194e2d6810971b3
