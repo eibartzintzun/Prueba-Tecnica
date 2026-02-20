@@ -11,16 +11,31 @@
 		E977994D2DBF4CF7001D58DC /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = E977994C2DBF4CF7001D58DC /* Kingfisher */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		E9CC59F62F490F90001EFC1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E91E34A12DBF24B4003F22CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E91E34A82DBF24B4003F22CD;
+			remoteInfo = PruebaTecnica;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		E900A2172F48E9E8005E76AD /* Jenkinsfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Jenkinsfile; sourceTree = "<group>"; };
 		E91E34A92DBF24B4003F22CD /* PruebaTecnica.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PruebaTecnica.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E999FC4C2F48F06700341A43 /* PruebaTecnicaTests.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; name = PruebaTecnicaTests.xctestplan; path = ../PruebaTecnicaTests.xctestplan; sourceTree = "<group>"; };
+		E9CC59F22F490F90001EFC1A /* PruebaTecnicaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PruebaTecnicaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		E91E34AB2DBF24B4003F22CD /* PruebaTecnica */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = PruebaTecnica;
+			sourceTree = "<group>";
+		};
+		E9CC59F32F490F90001EFC1A /* PruebaTecnicaTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = PruebaTecnicaTests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -34,15 +49,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E9CC59EF2F490F90001EFC1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		E91E34A02DBF24B4003F22CD = {
 			isa = PBXGroup;
 			children = (
-				E999FC4C2F48F06700341A43 /* PruebaTecnicaTests.xctestplan */,
 				E900A2172F48E9E8005E76AD /* Jenkinsfile */,
 				E91E34AB2DBF24B4003F22CD /* PruebaTecnica */,
+				E9CC59F32F490F90001EFC1A /* PruebaTecnicaTests */,
 				E91E34AA2DBF24B4003F22CD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,6 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				E91E34A92DBF24B4003F22CD /* PruebaTecnica.app */,
+				E9CC59F22F490F90001EFC1A /* PruebaTecnicaTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -81,6 +104,29 @@
 			productReference = E91E34A92DBF24B4003F22CD /* PruebaTecnica.app */;
 			productType = "com.apple.product-type.application";
 		};
+		E9CC59F12F490F90001EFC1A /* PruebaTecnicaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9CC59F82F490F90001EFC1A /* Build configuration list for PBXNativeTarget "PruebaTecnicaTests" */;
+			buildPhases = (
+				E9CC59EE2F490F90001EFC1A /* Sources */,
+				E9CC59EF2F490F90001EFC1A /* Frameworks */,
+				E9CC59F02F490F90001EFC1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9CC59F72F490F90001EFC1A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E9CC59F32F490F90001EFC1A /* PruebaTecnicaTests */,
+			);
+			name = PruebaTecnicaTests;
+			packageProductDependencies = (
+			);
+			productName = PruebaTecnicaTests;
+			productReference = E9CC59F22F490F90001EFC1A /* PruebaTecnicaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -88,11 +134,15 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1630;
+				LastSwiftUpdateCheck = 2620;
 				LastUpgradeCheck = 1630;
 				TargetAttributes = {
 					E91E34A82DBF24B4003F22CD = {
 						CreatedOnToolsVersion = 16.3;
+					};
+					E9CC59F12F490F90001EFC1A = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = E91E34A82DBF24B4003F22CD;
 					};
 				};
 			};
@@ -114,6 +164,7 @@
 			projectRoot = "";
 			targets = (
 				E91E34A82DBF24B4003F22CD /* PruebaTecnica */,
+				E9CC59F12F490F90001EFC1A /* PruebaTecnicaTests */,
 			);
 		};
 /* End PBXProject section */
@@ -127,6 +178,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E9CC59F02F490F90001EFC1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -137,7 +195,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E9CC59EE2F490F90001EFC1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E9CC59F72F490F90001EFC1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E91E34A82DBF24B4003F22CD /* PruebaTecnica */;
+			targetProxy = E9CC59F62F490F90001EFC1A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		E91E34B22DBF24B5003F22CD /* Debug */ = {
@@ -319,6 +392,50 @@
 			};
 			name = Release;
 		};
+		E9CC59F92F490F90001EFC1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MB63XS23B2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.etzintzun.PruebaTecnicaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PruebaTecnica.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PruebaTecnica";
+			};
+			name = Debug;
+		};
+		E9CC59FA2F490F90001EFC1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MB63XS23B2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.etzintzun.PruebaTecnicaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PruebaTecnica.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PruebaTecnica";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -336,6 +453,15 @@
 			buildConfigurations = (
 				E91E34B52DBF24B5003F22CD /* Debug */,
 				E91E34B62DBF24B5003F22CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9CC59F82F490F90001EFC1A /* Build configuration list for PBXNativeTarget "PruebaTecnicaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9CC59F92F490F90001EFC1A /* Debug */,
+				E9CC59FA2F490F90001EFC1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

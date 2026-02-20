@@ -34,6 +34,19 @@
             default = "YES">
          </TestPlanReference>
       </TestPlans>
+      <Testables>
+         <TestableReference
+            skipped = "NO"
+            parallelizable = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "E9CC59F12F490F90001EFC1A"
+               BuildableName = "PruebaTecnicaTests.xctest"
+               BlueprintName = "PruebaTecnicaTests"
+               ReferencedContainer = "container:PruebaTecnica.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+      </Testables>
    </TestAction>
    <LaunchAction
       buildConfiguration = "Debug"
