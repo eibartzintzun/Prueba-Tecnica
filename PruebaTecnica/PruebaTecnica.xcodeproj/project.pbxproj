@@ -14,6 +14,7 @@
 /* Begin PBXFileReference section */
 		E900A2172F48E9E8005E76AD /* Jenkinsfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Jenkinsfile; sourceTree = "<group>"; };
 		E91E34A92DBF24B4003F22CD /* PruebaTecnica.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PruebaTecnica.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E999FC4C2F48F06700341A43 /* PruebaTecnicaTests.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; name = PruebaTecnicaTests.xctestplan; path = ../PruebaTecnicaTests.xctestplan; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -39,6 +40,7 @@
 		E91E34A02DBF24B4003F22CD = {
 			isa = PBXGroup;
 			children = (
+				E999FC4C2F48F06700341A43 /* PruebaTecnicaTests.xctestplan */,
 				E900A2172F48E9E8005E76AD /* Jenkinsfile */,
 				E91E34AB2DBF24B4003F22CD /* PruebaTecnica */,
 				E91E34AA2DBF24B4003F22CD /* Products */,

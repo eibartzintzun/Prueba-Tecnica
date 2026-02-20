@@ -1,0 +1,18 @@
+{
+  "configurations" : [
+    {
+      "id" : "E27035CF-EBDA-43BC-A5C6-D329D8D913C9",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+
+  },
+  "testTargets" : [
+
+  ],
+  "version" : 1
+}
